@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>Business.Rules</RootNamespace>
+		<AssemblyName>Business.Rules</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="Business.Rules.Tests" />
+	</ItemGroup>
+</Project>
